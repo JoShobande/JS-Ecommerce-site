@@ -1,10 +1,162 @@
 {
     "products": [
         {
-            "title": "",
-            "cost": "",
-            "collection": "",
-            "image": ""
+            "title": "Eat Sleep Code Loop T-shirt for Developers",
+            "cost": "$25.00",
+            "collection": "New In",
+            "image": "images/shirtone.png"
+
+        },
+
+        {
+            "title": "To Be Or Not To Be T-shirt for Developers",
+            "cost": "$25.00",
+            "collection": "New In, Featured Tees",
+            "image": "images/shirttwo.png"
+
+        },
+
+        {
+            "title": "Binary Geek T-shirt For Developers",
+            "cost": "$25.00",
+            "collection": "New In",
+            "image": "images/shirtthree.png"
+
+        },
+
+        {
+            "title": "Trust Me I'm A Developer T-shirt",
+            "cost": "$25.00",
+            "collection": "New In",
+            "image": "images/shirtfour.png"
+
+        },
+
+        {
+            "title": "Binary Joke T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "New In, Featured Tees",
+            "image": "images/shirtfive.png"
+
+        },
+
+        {
+            "title": "Code Hearted T-shirt for Developers",
+            "cost": "$25.00",
+            "collection": "New In",
+            "image": "images/shirtsix.png"
+
+        },
+
+        {
+            "title": "All You Need Is NPM T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "New In, Featured Tees",
+            "image": "images/shirtseven.png"
+
+        },
+
+        {
+            "title": "Life Is Short Use Python T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "New In",
+            "image": "images/shirteight.png"
+
+        },
+
+        {
+            "title": "I Convert Coffee Into Code T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "New In",
+            "image": "images/shirtnine.png"
+
+        },
+
+        {
+            "title": "Binary Joke T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "New In, Featured Tees",
+            "image": "images/shirt10.png"
+
+        },
+
+        {
+            "title": "World's Okayest Developer T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "New In",
+            "image": "images/shirt11.png"
+
+        },
+
+        {
+            "title": "Code Hearted T-shirt for Developers",
+            "cost": "$25.00",
+            "collection": "New In",
+            "image": "images/shirt13.png"
+
+        },
+
+        {
+            "title": "World's Okayest Developer T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "Featured Tees",
+            "image": "images/shirt14.png"
+
+        },
+
+        {
+            "title": "My Coding T-shirt for Developers",
+            "cost": "$25.00",
+            "collection": "Featured Tees",
+            "image": "images/shirt15.png"
+
+        },
+
+        {
+            "title": "May The --Force Be With You T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "Featured Tees",
+            "image": "images/shirt16.png"
+
+        },
+
+        {
+            "title": "404 Error T-shirt for Developers",
+            "cost": "$25.00",
+            "collection": "Featured Tees",
+            "image": "images/shirt17.png"
+
+        },
+
+        {
+            "title": "FullStack Developer T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "Featured Tees",
+            "image": "images/shirt18.png"
+
+        },
+
+        {
+            "title": "History Is Written By The Committers T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "Featured Tees",
+            "image": "images/shirt19.png"
+
+        },
+
+        {
+            "title": "Git To Da Choppa T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "Featured Tees",
+            "image": "images/shirt20.png"
+
+        },
+
+        {
+            "title": "Sudo Give Me Beer T-Shirt for Developers",
+            "cost": "$25.00",
+            "collection": "Featured Tees",
+            "image": "images/shirt21.png"
 
         }
     ]

@@ -1,124 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   <div>
-       <p>Search</p>
-       <p>Cart</p>
-       <p>Checkout</p>
-   </div>
-   
-   <nav>
-       <img src="" alt="">
-       <ul>
-           <li>Home</li>
-           <li>New In</li>
-           <li>Featured Tees</li>
-           <li>Contact Us</li>
-       </ul>
-   </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <title>Js Ecommerce Site</title>
+  </head>
 
-   <header>
-       <div>
-            <h1>Code In Style</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit voluptatem, similique perspiciatis ratione nostrum!</p>
-            <button>SHOP NOW</button>
-        </div>
-        <img src="" alt=""/>    
-   </header>
+  <body>
+    <div class="top-nav">
+      <div class="top-nav__search">
+        <input type="text" placeholder="search" />
+      </div>
+      <div class="top-nav__actions">
+        <p class="top-nav__cart">Cart</p>
+        <p class="top-nav__cart">Checkout</p>
+      </div>
+    </div>
 
-   <section>
-       <h2></h2>
-       <article>
-           <img src="" alt=""/>
-           <p></p>
-           <p></p>
-       </article>
-       <article>
-            <img src="" alt=""/>
-            <p></p>
-            <p></p>
-        </article>
-        <article>
-            <img src="" alt=""/>
-            <p></p>
-            <p></p>
-        </article>
-        <article>
-            <img src="" alt=""/>
-            <p></p>
-            <p></p>
-        </article>
-        <button>View More</button>
-   </section>
+    <nav class="nav">
+      <div class="nav__logo">
+        <img src="" alt="" />
+      </div>
+      <ul class="nav__menu">
+        <li>Home</li>
+        <li>New In</li>
+        <li>Featured Tees</li>
+        <li>Contact Us</li>
+      </ul>
+    </nav>
 
-   <section>
-       <h3>Shop By Collection</h3>
-       <article>
-        <img src="" alt=""/>
+    <header class="hero">
+      <div class="header__content">
+        <h1>Code In Style</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sit
+          voluptatem, similique perspiciatis ratione nostrum!
+        </p>
+        <button>SHOP NOW</button>
+      </div>
+      <img class="header__image" src="" alt="" />
+    </header>
+
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <title>Js Ecommerce Site</title>
+  </head>
+
+  <body>
+    <div class="top-nav">
+      <div class="top-nav__search">
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          placeholder="search"
+          class="top-nav__search--input"
+        />
+      </div>
+      <div class="top-nav__actions">
+        <i class="fas fa-shopping-cart"></i><p class="top-nav__cart">Cart (0)</p>
+        <p class="top-nav__checkout">Checkout</p>
+      </div>
+    </div>
+
+    <nav class="nav">
+      <div>
+        <h1>DevMerch</h1>
+      </div>
+      <ul class="nav__menu">
+        <li class="nav__link nav__link--active">Home</li>
+        <li class="nav__link">New In</li>
+        <li class="nav__link">Featured Tees</li>
+        <li class="nav__link">Contact Us</li>
+      </ul>
+    </nav>
+
+    <header class="hero">
+      <div class="hero__content">
+        <h1 class="hero__content--head">Code In Style</h1>
+        <p class="hero__content--body">
+          Lorem ipsum dolor sit amet consectetur <br> adipisicing elit. Alias sit
+          voluptatem, similique perspiciatis ratione nostrum!
+        </p>
+        <button>SHOP NOW <i class="fas fa-arrow-right"></i></button>
+      </div>
+      <div class="hero__image">
+        <img src="https://cdn.shopify.com/s/files/1/0017/0432/9285/files/made4dev-coffee-to-code-tee.png?2487" alt="" />
+      </div>
+    </header>
+
+    <section class="product-list">
+      <h2 class="product-list__heading">New In</h2>
+      <article class="product">
+        <img src="" alt="" />
         <p></p>
         <p></p>
-    </article>
-    <article>
-         <img src="" alt=""/>
-         <p></p>
-         <p></p>
-     </article>
-     <article>
-         <img src="" alt=""/>
-         <p></p>
-         <p></p>
-     </article>
-     <article>
-         <img src="" alt=""/>
-         <p></p>
-         <p></p>
-     </article>
-     <button>View More</button>
-   </section>
+      </article>
+      <article class="product">
+        <img src="" alt="" />
+        <p></p>
+        <p></p>
+      </article>
+      <article class="product">
+        <img src="" alt="" />
+        <p></p>
+        <p></p>
+      </article>
+      <article class="product">
+        <img src="" alt="" />
+        <p></p>
+        <p></p>
+      </article>
+      <button class="product-list__button"> View More</button>
+    </section>
 
-   <section>
-       <img src="" alt=""/>
-       <h4>Stay Connected</h4>
-       <p></p>
-       <button>SUBSCRIBE</button>
-   </section>
+    <section class="product-collection">
+      <h3 class="product-collection__heading">Shop By Collection</h3>
+      <article class="Collection">
+        <img class="collection__image" src="" alt="" />
+        <p></p>
+        <p></p>
+      </article>
+      <article class="collection">
+        <img class="collection__image" src="" alt="" />
+        <p></p>
+        <p></p>
+      </article>
+      <article class="Collection">
+        <img class="collection__image" src="" alt="" />
+        <p></p>
+        <p></p>
+      </article>
+      <article class="Collection">
+        <img class="collection__image" src="" alt="" />
+        <p></p>
+        <p></p>
+      </article>
+      <button class="prod">View More</button>
+    </section>
 
-   <footer>
-        <div>
-            <h5>Helpful Information</h5>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <div>
-            <h5>Helpful Information</h5>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <div>
-            <h5>About Us</h5>
-                <p></p>
-                <img src="" alt="" />
-                <img src="" alt="" />
-                <img src="" alt="" />
-        </div>
-   </footer>
+    <section>
+      <img class="stay-connected" src="" alt="" />
+      <h4 class="stay-connected__heading">Stay Connected</h4>
+      <p class="stay-connected__message"></p>
+      <button class="stay-connected__button">SUBSCRIBE</button>
+    </section>
 
-</body>
+    <footer class="footer">
+      <div class="footer__content">
+        <h5>Helpful Information</h5>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h5>Helpful Information</h5>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="footer__content">
+        <h5>About Us</h5>
+        <p></p>
+        <img src="" alt="" />
+        <img src="" alt="" />
+        <img src="" alt="" />
+      </div>
+    </footer>
+
+
+
+    <script src="https://kit.fontawesome.com/ca119626a5.js" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+  </body>
 </html>
