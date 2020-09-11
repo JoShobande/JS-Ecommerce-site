@@ -113,3 +113,144 @@
   height: 100%;
   object-fit: contain;
 }
+
+
+/*****************************8* Mobile first ************************************************/
+
+
+/**************************************** topnav ***************************************/
+.top-nav{
+  display: none;
+}
+
+/********************************************* nav ************************************/
+.nav{
+  display: none;
+}
+
+
+/************************************************ Hero****************************** */
+.hero{
+  display: none;
+}
+
+
+/*************************** New IN ***********************************************/
+.product-list{
+  width: 100%;
+  text-align: center;
+}
+.product-list__heading{
+  text-align: center;
+  width: 100%;
+}
+
+.products{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 10%;
+  margin-top: 30px;
+}
+
+.products img{
+  width: 100%;
+}
+
+.product-list__button{
+  background-color: #00aeef;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+/* .products__title{
+  text-align: center;
+} */
+
+/************************* Collection ******************************************/
+.product-collection{
+  margin-top: 40px;
+  text-align: center;
+}
+
+
+/******************8888 featured products *****************************88*/
+.featured{
+  text-align: center;
+  width: 100%;
+  margin-top: 40px;
+}
+.featured__products{
+  display: grid;
+  grid-template-columns: 40% 40%;
+  column-gap: 10%;
+  margin-top: 40px;
+  
+}
+.featured__products img{
+  width: 100%;
+}
+.featured-button{
+  background-color: #00aeef;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+
+/*********************** stay connected ********************************8*/
+.stay_connected{
+  margin-top: 70px;
+  background-color: #f5f8fa;
+  text-align: center;
+  padding: 20px;
+  
+}
+.stay-connected__heading{
+  margin-top: 10px;
+}
+.stay-connected__message{
+  margin-top: 10px;
+}
+.stay-connected__input-field{
+  margin-top: 10px;
+}
+.stay-connected__input-field input{
+  border: none;
+  height: 40px;
+  padding: 5px;
+}
+.stay-connected__input-field button{
+  background-color: #00aeef;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/************************  Footer********************************/
+footer{
+  margin-top: 30px;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+footer li{
+  list-style: none;
+  padding: 5px;
+}
+
+.footer__content-icons{
+  display: flex;
+}
