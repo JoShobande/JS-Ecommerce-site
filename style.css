@@ -177,7 +177,7 @@
 }
 
 
-/******************8888 featured products *****************************88*/
+/*********************featured products *****************************88*/
 .featured{
   text-align: center;
   width: 100%;
@@ -253,4 +253,44 @@ footer li{
 
 .footer__content-icons{
   display: flex;
+}
+
+
+/***************************** media query for desktop view **********************/
+@media (min-width: 768px){
+  /* New IN */
+  .products{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 5%;
+    margin-top: 30px;
+  }
+
+  /* PRODUCT COLLECTION */
+  .collection{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    /* column-gap: 10%; */
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  /* FEATURED PRODUCTS */
+  .featured__products{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+    column-gap: 5%;
+    margin-top: 40px;
+    
+  }
+
+  /* FOOTER */
+
+  .footer{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    column-gap: 5%;
+    margin-top: 40px;
+  }
+  
 }
